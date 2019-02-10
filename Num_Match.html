@@ -1,0 +1,30 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title >Assignment 14</title>
+        <link rel="stylesheet" type="text/css" href="assign_14.css">
+        <script src="assign_14.js"></script>
+    </head>
+    <body>
+        <h1 style="color:crimson">Memory Matching Game</h1>
+        <button onclick="an(); assignval();">Start</button>
+        <table id="t1">
+            <tr id="r1" >
+                <td id="0" class="cell" type="hidden" data-value="1" onclick="clic(event); match();"></td>
+                <td id="1" class="cell" type="hidden" data-value="1" onclick="clic(event); match();"></td>
+                <td id="2" class="cell" type="hidden" data-value="2" onclick="clic(event); match();"></td>
+            </tr>
+            <tr id="r2">
+                <td id="3" class="cell" type="hidden" data-value="3" onclick="clic(event); match();"></td>
+                <td id="4" class="cell" type="hidden" data-value="4" onclick="clic(event); match();"></td>
+                <td id="5" class="cell" type="hidden" data-value="5" onclick="clic(event); match();"></td>
+            </tr>
+            <tr id="r3">
+                    <td id="6" class="cell" type="hidden" data-value="6" onclick="clic(event); match();"></td>
+                    <td id="7" class="cell" type="hidden" data-value="7" onclick="clic(event); match();"></td>
+                    <td id="8" class="cell" type="hidden" data-value="10" onclick="clic(event); match();"></td>
+                </tr>
+        </table>
+        <button onclick="reset()">Restart</button>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+table{
+    border: 2px solid black;
+    background-color : lightblue; 
+}
+.cell{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    background-color: blueviolet;
+    border: solid black;
+}
+
+.cell:hover{
+    background-color: red;
+}
